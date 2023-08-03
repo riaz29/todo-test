@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.99.101']
 
+CORS_ALLOWED_ORIGINS = [
+    "https://mfaizanasif.tk",
+    "https://www.mfaizanasif.tk",
+    # Add more trusted origins as needed
+]
 
 # Application definition
 
